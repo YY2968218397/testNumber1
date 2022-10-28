@@ -1,0 +1,26 @@
+
+D:\software\matlab\extern\include
+
+
+D:\software\matlab\extern\include\win64
+
+
+、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、
+
+D:\software\matlab\extern\lib\win64\microsoft
+
+
+、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、
+
+mclmcrrt.lib
+libmat.lib
+libmx.lib
+mclmcr.lib
+
+
+
+mex -setup
+
+mbuild -setup
+
+mcc -W cpplib:resCode -T link:lib resCode.m -C
